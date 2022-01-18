@@ -46,4 +46,3 @@ int main(int argc,char*argv[])
 	for(sx=-0.35f;sx<0.35f;sx+=0.01f)
 	    putchar(f(0,0,PI*0.5f,1.0f,n)<0?'*':' ');
 	    system("color 0a");
-}
